@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <CComponent word= "2023"/>
-      <FComponent/>
+      <FComponent word= "ReactJS"/>
     </div>
   );
 }
