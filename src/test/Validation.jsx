@@ -61,8 +61,9 @@ function Login(){
 
 
     return (
-        <Container onSubmit={handleSubmit}>
-            <Form>
+        
+        <Container className="min-vh-100 align-items-center d-flex justify-content-center" onSubmit={handleSubmit}>
+            <Form style={{width:"300px"}}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control 
